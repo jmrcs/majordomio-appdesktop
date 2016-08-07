@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1147304B588700ECC8C4344C /* Pods_majordomo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42137A5214F0F83AAFD32BDF /* Pods_majordomo.framework */; };
+		33EC010565CA6EE7A967D7D9 /* Pods_majordomoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEFE87FC5D28429E5273D0A /* Pods_majordomoTests.framework */; };
+		45F906881D57BF16007AFE4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F906871D57BF16007AFE4A /* AppDelegate.swift */; };
+		45F9068A1D57BF16007AFE4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F906891D57BF16007AFE4A /* Assets.xcassets */; };
+		45F9068D1D57BF16007AFE4A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45F9068B1D57BF16007AFE4A /* MainMenu.xib */; };
+		45F906981D57BF16007AFE4A /* majordomoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F906971D57BF16007AFE4A /* majordomoTests.swift */; };
+		45F906A31D57BF16007AFE4A /* majordomoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F906A21D57BF16007AFE4A /* majordomoUITests.swift */; };
+		90869A7C7ADDEAB0F4392619 /* Pods_majordomoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438B3B8DC50FC08F32ADB7B4 /* Pods_majordomoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45F906941D57BF16007AFE4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45F9067C1D57BF16007AFE4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45F906831D57BF16007AFE4A;
+			remoteInfo = majordomo;
+		};
+		45F9069F1D57BF16007AFE4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45F9067C1D57BF16007AFE4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45F906831D57BF16007AFE4A;
+			remoteInfo = majordomo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F1669576878FF959732B8C0 /* Pods-majordomoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-majordomoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-majordomoTests/Pods-majordomoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		309F4E9FC8AAD24A4D1902FD /* Pods-majordomo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-majordomo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-majordomo/Pods-majordomo.debug.xcconfig"; sourceTree = "<group>"; };
+		42137A5214F0F83AAFD32BDF /* Pods_majordomo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_majordomo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		438B3B8DC50FC08F32ADB7B4 /* Pods_majordomoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_majordomoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F906841D57BF16007AFE4A /* majordomo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = majordomo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F906871D57BF16007AFE4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45F906891D57BF16007AFE4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45F9068C1D57BF16007AFE4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		45F9068E1D57BF16007AFE4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F906931D57BF16007AFE4A /* majordomoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = majordomoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F906971D57BF16007AFE4A /* majordomoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = majordomoTests.swift; sourceTree = "<group>"; };
+		45F906991D57BF16007AFE4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F9069E1D57BF16007AFE4A /* majordomoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = majordomoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F906A21D57BF16007AFE4A /* majordomoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = majordomoUITests.swift; sourceTree = "<group>"; };
+		45F906A41D57BF16007AFE4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63F8AC064CC82F8843255F67 /* Pods-majordomoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-majordomoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-majordomoUITests/Pods-majordomoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		654F01B3B712FECBEDFD1AE1 /* Pods-majordomo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-majordomo.release.xcconfig"; path = "Pods/Target Support Files/Pods-majordomo/Pods-majordomo.release.xcconfig"; sourceTree = "<group>"; };
+		6F9BB2CD63DD5DA696930C53 /* Pods-majordomoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-majordomoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-majordomoTests/Pods-majordomoTests.release.xcconfig"; sourceTree = "<group>"; };
+		8FEFE87FC5D28429E5273D0A /* Pods_majordomoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_majordomoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		959F96EACEBF033941BC9B21 /* Pods-majordomoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-majordomoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-majordomoUITests/Pods-majordomoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45F906811D57BF16007AFE4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1147304B588700ECC8C4344C /* Pods_majordomo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F906901D57BF16007AFE4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33EC010565CA6EE7A967D7D9 /* Pods_majordomoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F9069B1D57BF16007AFE4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90869A7C7ADDEAB0F4392619 /* Pods_majordomoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45F9067B1D57BF16007AFE4A = {
+			isa = PBXGroup;
+			children = (
+				45F906861D57BF16007AFE4A /* majordomo */,
+				45F906961D57BF16007AFE4A /* majordomoTests */,
+				45F906A11D57BF16007AFE4A /* majordomoUITests */,
+				45F906851D57BF16007AFE4A /* Products */,
+				5F70EF2F5FF1B88DF8CD8D0A /* Pods */,
+				66BB07A3BF30C1D79D15A091 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		45F906851D57BF16007AFE4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45F906841D57BF16007AFE4A /* majordomo.app */,
+				45F906931D57BF16007AFE4A /* majordomoTests.xctest */,
+				45F9069E1D57BF16007AFE4A /* majordomoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45F906861D57BF16007AFE4A /* majordomo */ = {
+			isa = PBXGroup;
+			children = (
+				45F906871D57BF16007AFE4A /* AppDelegate.swift */,
+				45F906891D57BF16007AFE4A /* Assets.xcassets */,
+				45F9068B1D57BF16007AFE4A /* MainMenu.xib */,
+				45F9068E1D57BF16007AFE4A /* Info.plist */,
+			);
+			path = majordomo;
+			sourceTree = "<group>";
+		};
+		45F906961D57BF16007AFE4A /* majordomoTests */ = {
+			isa = PBXGroup;
+			children = (
+				45F906971D57BF16007AFE4A /* majordomoTests.swift */,
+				45F906991D57BF16007AFE4A /* Info.plist */,
+			);
+			path = majordomoTests;
+			sourceTree = "<group>";
+		};
+		45F906A11D57BF16007AFE4A /* majordomoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45F906A21D57BF16007AFE4A /* majordomoUITests.swift */,
+				45F906A41D57BF16007AFE4A /* Info.plist */,
+			);
+			path = majordomoUITests;
+			sourceTree = "<group>";
+		};
+		5F70EF2F5FF1B88DF8CD8D0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				309F4E9FC8AAD24A4D1902FD /* Pods-majordomo.debug.xcconfig */,
+				654F01B3B712FECBEDFD1AE1 /* Pods-majordomo.release.xcconfig */,
+				0F1669576878FF959732B8C0 /* Pods-majordomoTests.debug.xcconfig */,
+				6F9BB2CD63DD5DA696930C53 /* Pods-majordomoTests.release.xcconfig */,
+				959F96EACEBF033941BC9B21 /* Pods-majordomoUITests.debug.xcconfig */,
+				63F8AC064CC82F8843255F67 /* Pods-majordomoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		66BB07A3BF30C1D79D15A091 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42137A5214F0F83AAFD32BDF /* Pods_majordomo.framework */,
+				8FEFE87FC5D28429E5273D0A /* Pods_majordomoTests.framework */,
+				438B3B8DC50FC08F32ADB7B4 /* Pods_majordomoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45F906831D57BF16007AFE4A /* majordomo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F906A71D57BF16007AFE4A /* Build configuration list for PBXNativeTarget "majordomo" */;
+			buildPhases = (
+				3B810570C7A5C9B80E1498E8 /* [CP] Check Pods Manifest.lock */,
+				45F906801D57BF16007AFE4A /* Sources */,
+				45F906811D57BF16007AFE4A /* Frameworks */,
+				45F906821D57BF16007AFE4A /* Resources */,
+				9032DD52E193074EFA3F1DAD /* [CP] Embed Pods Frameworks */,
+				5471FCCE91F3852ADB49C67B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = majordomo;
+			productName = majordomo;
+			productReference = 45F906841D57BF16007AFE4A /* majordomo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45F906921D57BF16007AFE4A /* majordomoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F906AA1D57BF16007AFE4A /* Build configuration list for PBXNativeTarget "majordomoTests" */;
+			buildPhases = (
+				C5EA1C25001B467E383A7B94 /* [CP] Check Pods Manifest.lock */,
+				45F9068F1D57BF16007AFE4A /* Sources */,
+				45F906901D57BF16007AFE4A /* Frameworks */,
+				45F906911D57BF16007AFE4A /* Resources */,
+				001D47A5C1873DC105DDBEB0 /* [CP] Embed Pods Frameworks */,
+				BF84486B53EABDE86291D5CE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45F906951D57BF16007AFE4A /* PBXTargetDependency */,
+			);
+			name = majordomoTests;
+			productName = majordomoTests;
+			productReference = 45F906931D57BF16007AFE4A /* majordomoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45F9069D1D57BF16007AFE4A /* majordomoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F906AD1D57BF16007AFE4A /* Build configuration list for PBXNativeTarget "majordomoUITests" */;
+			buildPhases = (
+				468138BA4C10CC293DEFE25F /* [CP] Check Pods Manifest.lock */,
+				45F9069A1D57BF16007AFE4A /* Sources */,
+				45F9069B1D57BF16007AFE4A /* Frameworks */,
+				45F9069C1D57BF16007AFE4A /* Resources */,
+				6577BE55EB1C00DB25F7F1BF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45F906A01D57BF16007AFE4A /* PBXTargetDependency */,
+			);
+			name = majordomoUITests;
+			productName = majordomoUITests;
+			productReference = 45F9069E1D57BF16007AFE4A /* majordomoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45F9067C1D57BF16007AFE4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MJD;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = majordomo;
+				TargetAttributes = {
+					45F906831D57BF16007AFE4A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					45F906921D57BF16007AFE4A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 45F906831D57BF16007AFE4A;
+					};
+					45F9069D1D57BF16007AFE4A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 45F906831D57BF16007AFE4A;
+					};
+				};
+			};
+			buildConfigurationList = 45F9067F1D57BF16007AFE4A /* Build configuration list for PBXProject "majordomo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45F9067B1D57BF16007AFE4A;
+			productRefGroup = 45F906851D57BF16007AFE4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45F906831D57BF16007AFE4A /* majordomo */,
+				45F906921D57BF16007AFE4A /* majordomoTests */,
+				45F9069D1D57BF16007AFE4A /* majordomoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45F906821D57BF16007AFE4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F9068A1D57BF16007AFE4A /* Assets.xcassets in Resources */,
+				45F9068D1D57BF16007AFE4A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F906911D57BF16007AFE4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F9069C1D57BF16007AFE4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		001D47A5C1873DC105DDBEB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-majordomoTests/Pods-majordomoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B810570C7A5C9B80E1498E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		468138BA4C10CC293DEFE25F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5471FCCE91F3852ADB49C67B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-majordomo/Pods-majordomo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6577BE55EB1C00DB25F7F1BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-majordomoUITests/Pods-majordomoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9032DD52E193074EFA3F1DAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-majordomo/Pods-majordomo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF84486B53EABDE86291D5CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-majordomoTests/Pods-majordomoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5EA1C25001B467E383A7B94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45F906801D57BF16007AFE4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F906881D57BF16007AFE4A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F9068F1D57BF16007AFE4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F906981D57BF16007AFE4A /* majordomoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F9069A1D57BF16007AFE4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F906A31D57BF16007AFE4A /* majordomoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45F906951D57BF16007AFE4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45F906831D57BF16007AFE4A /* majordomo */;
+			targetProxy = 45F906941D57BF16007AFE4A /* PBXContainerItemProxy */;
+		};
+		45F906A01D57BF16007AFE4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45F906831D57BF16007AFE4A /* majordomo */;
+			targetProxy = 45F9069F1D57BF16007AFE4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45F9068B1D57BF16007AFE4A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45F9068C1D57BF16007AFE4A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45F906A51D57BF16007AFE4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45F906A61D57BF16007AFE4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		45F906A81D57BF16007AFE4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 309F4E9FC8AAD24A4D1902FD /* Pods-majordomo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = majordomo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.majordomo.majordomo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		45F906A91D57BF16007AFE4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 654F01B3B712FECBEDFD1AE1 /* Pods-majordomo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = majordomo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.majordomo.majordomo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		45F906AB1D57BF16007AFE4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F1669576878FF959732B8C0 /* Pods-majordomoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = majordomoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.majordomo.majordomoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/majordomo.app/Contents/MacOS/majordomo";
+			};
+			name = Debug;
+		};
+		45F906AC1D57BF16007AFE4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F9BB2CD63DD5DA696930C53 /* Pods-majordomoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = majordomoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.majordomo.majordomoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/majordomo.app/Contents/MacOS/majordomo";
+			};
+			name = Release;
+		};
+		45F906AE1D57BF16007AFE4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 959F96EACEBF033941BC9B21 /* Pods-majordomoUITests.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = majordomoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.majordomo.majordomoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = majordomo;
+			};
+			name = Debug;
+		};
+		45F906AF1D57BF16007AFE4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63F8AC064CC82F8843255F67 /* Pods-majordomoUITests.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = majordomoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.majordomo.majordomoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = majordomo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45F9067F1D57BF16007AFE4A /* Build configuration list for PBXProject "majordomo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F906A51D57BF16007AFE4A /* Debug */,
+				45F906A61D57BF16007AFE4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F906A71D57BF16007AFE4A /* Build configuration list for PBXNativeTarget "majordomo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F906A81D57BF16007AFE4A /* Debug */,
+				45F906A91D57BF16007AFE4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F906AA1D57BF16007AFE4A /* Build configuration list for PBXNativeTarget "majordomoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F906AB1D57BF16007AFE4A /* Debug */,
+				45F906AC1D57BF16007AFE4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F906AD1D57BF16007AFE4A /* Build configuration list for PBXNativeTarget "majordomoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F906AE1D57BF16007AFE4A /* Debug */,
+				45F906AF1D57BF16007AFE4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45F9067C1D57BF16007AFE4A /* Project object */;
+}
