@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>15G31</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Docker</string>
+	<key>CFBundleExecutable</key>
+	<string>Docker</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.docker.docker</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Docker</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.12.0</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>10871</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>7D1014</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>15E60</string>
+	<key>DTSDKName</key>
+	<string>macosx10.11</string>
+	<key>DTXcode</key>
+	<string>0731</string>
+	<key>DTXcodeBuild</key>
+	<string>7D1014</string>
+	<key>DockerBuildType</key>
+	<string>stable</string>
+	<key>HockeyAppId</key>
+	<string>ce4391b4d3be4a18ad60dafb8c56ae74</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.developer-tools</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.10</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2016 Docker Inc. All Rights Reserved.</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>BITCrashExceptionApplication</string>
+	<key>NSUserNotificationAlertStyle</key>
+	<string>alert</string>
+	<key>SMPrivilegedExecutables</key>
+	<dict>
+		<key>com.docker.vmnetd</key>
+		<string>identifier "com.docker.vmnetd" and certificate leaf[subject.CN] = "Developer ID Application: Docker Inc (9BNSXJN65R)"</string>
+	</dict>
+	<key>SUAllowsAutomaticUpdates</key>
+	<false/>
+	<key>SUEnableAutomaticChecks</key>
+	<false/>
+	<key>SUEnableSystemProfiling</key>
+	<false/>
+	<key>SUFeedURL</key>
+	<string>https://download.docker.com/mac/stable/appcast.xml</string>
+</dict>
+</plist>
